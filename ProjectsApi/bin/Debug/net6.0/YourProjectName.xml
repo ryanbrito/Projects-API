@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjectsApi</name>
+    </assembly>
+    <members>
+        <member name="T:ProjectsApi.Application.Dtos.CreateProjectRequestDto">
+            <summary>
+            A DTO responsible for handling Create Project Request Data
+            </summary>
+        </member>
+        <member name="P:ProjectsApi.Application.Dtos.CreateProjectRequestDto.Name">
+            <summary>
+            The title/name of your project
+            </summary>
+        </member>
+        <member name="P:ProjectsApi.Application.Dtos.Shared.Authorization.TenantId">
+            <summary>
+            Your Tenant Id
+            </summary>
+        </member>
+        <member name="P:ProjectsApi.Application.Dtos.Shared.Authorization.CorrelationId">
+            <summary>
+            Sets the Request correlation ID.
+            </summary>
+        </member>
+        <member name="T:ProjectsApi.Domain.Models.ProjectModel">
+            <summary>
+            Represents a project in the Codessey context.
+            </summary>
+        </member>
+    </members>
+</doc>
